@@ -24,6 +24,8 @@ Version 1.0 preview requires macOS 14 or later. Limits: 20 MB, 250,000 records a
 
 ## Privacy
 
+Read the complete [RowReady CSV privacy policy](PRIVACY.md).
+
 The app processes selected files on your Mac and has no network feature, analytics, advertisements or account system. It writes an output only when you export. The optional JSON report contains metadata and record numbers, not cell values. You control where exports are saved; synchronized folders can upload them under the storage provider's rules.
 
 Public support issues are hosted by GitHub and are separate from the app. GitHub processes your interactions under its own privacy statement.
