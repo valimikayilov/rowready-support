@@ -1,0 +1,21 @@
+name: Get help with RowReady CSV
+description: Report a problem or request a feature using non-confidential examples.
+title: "[Support] "
+body:
+  - type: markdown
+    attributes:
+      value: "This is a public support channel. Use invented example data. Do not attach confidential files, credentials, banking details or personal information. Review any change report before sharing: it includes the source filename and fingerprint."
+  - type: input
+    id: versions
+    attributes:
+      label: macOS and RowReady versions
+      placeholder: "For example: macOS 26.5, RowReady 1.0 preview"
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: What happened, or what would you like to do?
+      description: Include steps, expected behavior and actual behavior. Use only made-up data in examples.
+    validations:
+      required: true
