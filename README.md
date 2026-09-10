@@ -1,8 +1,12 @@
 # RowReady CSV support
 
-RowReady CSV is a native Mac utility for previewing CSV files and exporting cleaned copies. It is currently a development preview and is not yet available on the Mac App Store.
+RowReady CSV is a native Mac utility for previewing CSV files and exporting cleaned copies. Version 1.0.0 has been submitted to Apple for review and is not yet available to purchase on the Mac App Store.
 
 This repository is the public support channel maintained by Vali Mikayilov. It contains support material, not the app's source code.
+
+![RowReady previewing a cleaned demonstration CSV](assets/rowready-cleaned.png)
+
+The example uses fictional records. You can review the original data, cleaned data and change list before saving a separate copy.
 
 ## Get help
 
@@ -20,7 +24,7 @@ Include your macOS version, app version, the steps you took, what you expected a
 
 All cleanup options are off by default. Values remain strings; the app does not convert dates, numbers or formulas. Your destination spreadsheet may interpret them differently.
 
-Version 1.0 preview requires macOS 14 or later. Limits: 20 MB, 250,000 records and 1,000 columns. The table preview shows up to 100 records and 30 columns; this preview limit does not truncate the export. Malformed quoting is rejected. Records with different numbers of columns are flagged and preserved.
+Version 1.0 requires macOS 14 or later. Limits: 20 MB, 250,000 records and 1,000 columns. The table preview shows up to 100 records and 30 columns; this preview limit does not truncate the export. Malformed quoting is rejected. Records with different numbers of columns are flagged and preserved.
 
 ## Privacy
 
